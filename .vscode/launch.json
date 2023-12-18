@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Qt DBus NetMan PropertiesChanged",
+            "type": "python",
+            "request": "launch",
+            "module": "qdbusdemo_netmanpropertieschanged",
+            "env": {
+                "QDBUS_DEBUG": "0"},
+            "justMyCode": true
+        },
+        {
+            "name": "Qt DBus DBus NameOwnerChanged",
+            "type": "python",
+            "request": "launch",
+            "module": "qdbusdemo_dbusnameownerchanged",
+            "env": {
+                "QDBUS_DEBUG": "0"},
+            "justMyCode": true
+        },
+        {
+            "name": "sdbus",
+            "type": "python",
+            "request": "launch",
+            "module": "sdbusdemo",
+            "justMyCode": true
+        }
+    ]
+}
